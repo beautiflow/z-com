@@ -1,9 +1,7 @@
-
 export default function Home() {
   return (
-    <main >
-
+    <main>
+      로그인 모달
     </main>
-    
   );
 }
