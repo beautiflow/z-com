@@ -5,7 +5,7 @@ import relativeTime from 'dayjs/plugin/relativeTime';
 import 'dayjs/locale/ko';
 // import ActionButtons from "@/app/(afterLogin)/_component/ActionButtons";
 
-dayjs.locale('ko');
+dayjs.locale('ko'); // 한글 플러그인
 dayjs.extend(relativeTime)
 
 export default function Post() {
